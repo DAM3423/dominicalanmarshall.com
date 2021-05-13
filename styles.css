@@ -11,7 +11,7 @@ p,
 a,
 ul,
 li {
-    font-family: "Rubik Regular";
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -55,10 +55,6 @@ textarea {
 /* Base Styles */
 
 /* Fonts */
-@font-face {
-    font-family: 'Rubik Regular';
-    src: url("../dominicalanmarshall.com/assets/fonts/rubik-regular.ttf");
-}
 
 h1, h2, h3, h4 {
     color: #F1FAEE;
