@@ -1,11 +1,14 @@
 /* Variables */
+
 :root {
     --primary: #E63946;
     --secondary: #1D3557;
     --third: #457B9D;
 }
 
+
 /* Reset */
+
 body,
 p,
 a,
@@ -52,20 +55,28 @@ textarea {
     color: #F1FAEE;
 }
 
+
 /* Base Styles */
+
 
 /* Fonts */
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     color: #F1FAEE;
     font-weight: normal;
 }
 
-p, a, li {
+p,
+a,
+li {
     color: #F1FAEE;
 }
 
-h1, h3 {
+h1,
+h3 {
     font-size: 1.2em;
 }
 
@@ -81,7 +92,9 @@ h4 {
     font-size: 1.1em;
 }
 
+
 /* Mobile Styles */
+
 * {
     text-align: center;
 }
@@ -104,6 +117,57 @@ h4 {
     grid-row: 1;
     padding-bottom: 10px;
     border-bottom: 3px solid var(--primary);
+}
+
+#bpm-calculator {
+    grid-column: 5/6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#bpm-calculator a {
+    padding: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#bpm-calculator a:hover {
+    color: var(--third);
+}
+
+#soothing-sounds {
+    grid-column: 6/7;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#soothing-sounds a {
+    padding: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#soothing-sounds a:hover {
+    color: var(--third);
+}
+
+#buy-me-a-coffee {
+    grid-column: 7/9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#buy-me-a-coffee a {
+    padding: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#buy-me-a-coffee a:hover {
+    color: var(--third);
 }
 
 #welcome {
@@ -188,7 +252,8 @@ h4 {
     margin: 20px auto;
 }
 
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
     width: 80%;
     margin: 10px 0;
 }
@@ -221,28 +286,26 @@ footer img {
     width: 20px;
 }
 
+
 /* Small Tablet Styles */
+
 @media screen and (min-width: 620px) {
     .welcome-image {
         grid-column: 3/7;
     }
-
     .projects a {
         grid-column: span 4;
         display: block;
         margin: 20px;
     }
-
     .projects a:last-child {
         grid-column: 3/7;
     }
-
     .projects a * {
         margin: 10px;
         max-width: 60%;
         margin: 10px 20%;
     }
-
     #skills {
         padding: 30px 100px;
     }
