@@ -119,40 +119,6 @@ h4 {
     border-bottom: 3px solid var(--primary);
 }
 
-#bpm-calculator {
-    grid-column: 5/6;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-#bpm-calculator a {
-    padding: 10px;
-    transition: 1s;
-    cursor: pointer;
-}
-
-#bpm-calculator a:hover {
-    color: var(--third);
-}
-
-#soothing-sounds {
-    grid-column: 6/7;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-#soothing-sounds a {
-    padding: 10px;
-    transition: 1s;
-    cursor: pointer;
-}
-
-#soothing-sounds a:hover {
-    color: var(--third);
-}
-
 #buy-me-a-coffee {
     grid-column: 7/9;
     display: flex;
@@ -273,7 +239,7 @@ footer .copyright {
 }
 
 footer .social {
-    grid-column: 6/9;
+    grid-column: 6/8;
     display: flex;
     justify-content: flex-end;
 }
